@@ -88,6 +88,7 @@ print(f"Dados previsores: {X_census[0]}")
 
 X_census = standarnisationDataToNdArray(X_census)
 
+
 print(f"Dados previsores: {X_census[0]}")
 
 credit_data = getTrainingBaseData(X_credit, Y_credit, 0.25)
